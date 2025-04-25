@@ -8,7 +8,7 @@ kdc_fqdn=""
 print_usage() {
   echo "Usage: $0 [options]"
   echo "  -K, --kdc-fqdn       <FQDN>         (Required) FQDN for the KDC, ex dc01.whatever.lol"
-  echo "  -o, --output-file    <output file>  (Optional) Filepath for output (default: custom_kerb5.config)"
+  echo "  -o, --output-file    <output file>  (Optional) Filepath for output (default: custom_krb5.config)"
   exit 1
 }
 

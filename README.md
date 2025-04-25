@@ -3,7 +3,7 @@ A collection of scripts and tools for dealing with Kerberos
 
 ## Index
 
-- **`make_custom_krb5_conf.sh`**
+- [**`make_custom_krb5_conf.sh`**](#make_custom_krb5_config)
 
 ## Scripts
 
@@ -16,7 +16,7 @@ Just input the fully-qualified-domain-name of the KDC, and it will spit out a Ke
 ```
 Usage: ./make_custom_krb5_conf.sh [options]
   -K, --kdc-fqdn       <FQDN>         (Required) FQDN for the KDC, ex dc01.whatever.lol
-  -o, --output-file    <output file>  (Optional) Filepath for output (default: custom_kerb5.config)
+  -o, --output-file    <output file>  (Optional) Filepath for output (default: custom_krb5.config)
 ```
 
 ---
